@@ -5,7 +5,7 @@ FROM eclipse-temurin:17-jdk-alpine
 WORKDIR /app
 
 #copy source code into working directory
-COPY src/Maim.java /app/Main.java
+COPY src/Main.java /app/Main.java
 
 #run the java image
 RUN javac Main.java
