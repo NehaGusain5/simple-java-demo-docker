@@ -1,5 +1,5 @@
 #used to pull java latest image
-FROM eclipse-temurin:21-jdk-alpine
+FROM eclipse-temurin:17-jdk-alpine
 
 #create a working directory
 WORKDIR /app
